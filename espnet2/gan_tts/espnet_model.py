@@ -166,7 +166,7 @@ class ESPnetGANTTSModel(AbsGANESPnetModel):
             batch.update(sids=sids)
         if lids is not None:
             batch.update(lids=lids)
-
+        
         return self.tts(**batch)
 
     def collect_feats(

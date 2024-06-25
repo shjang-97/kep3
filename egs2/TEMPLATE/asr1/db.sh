@@ -1,6 +1,11 @@
 # Set the path of your corpus
 # "downloads" means the corpus can be downloaded by the recipe automatically
 
+################## KAKAO ####################
+KAKAO_RYAN=/workspace/fs_soya_db/kakao/Ryan
+KAKAO_MUL50=/workspace/fs_soya_db/kakao_refined/Multispeaker50
+################### KAKAO ####################
+
 ACCENTED_FR=downloads
 ACCENT_DB=
 ACESINGER=downloads
@@ -94,7 +99,9 @@ JTUBESPEECH=downloads
 JVS=downloads
 KISING=downloads
 KSC=downloads
-KSS=
+KSS=/workspace/fs_soya_db/kakao/Ryan # Kakao_ryan
+#KSS=downloads
+KAKAO_MUL50=${KAKAO_MUL50}
 QASR_TTS=downloads
 SNIPS= # smart-light-en-closed-field data path
 SPGISPEECH=
